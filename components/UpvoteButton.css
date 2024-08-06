@@ -1,0 +1,36 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.upvoteButton {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 60px;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: var(--orange);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upvoteButton:hover {
+    background-color: var(--orange);
+}
+
+
+@media (max-width: 600px) {
+    .upvoteButton {
+        width: 100%;
+        font-size: 14px;
+        padding: 12px;
+    }
+}
