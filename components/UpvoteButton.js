@@ -12,7 +12,7 @@ export default function UpvoteButton() {
     return (
         <div >
             <button type="button"
-                className="cursor-pointer text-white bg-orangee text-white font-bold p-5 mt-16 rounded"
+                className="cursor-pointer text-white bg-orangee text-white font-bold p-5 md:mt-14 mt-10 rounded"
                 onClick={handleClick}
             >
                 <pre className="flex uppercase tracking-widest"> <FaCaretUp className=" text-2xl flex " />upvote : {isUpvoted}</pre>

@@ -73,8 +73,9 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       margin: {
-        'extra-wide': '6rem', // Custom margin size
-        'extra-narrow': '0.125rem', // Another custom margin size
+        'extra-wide': '6rem', 
+        'extra-wider': '16rem', 
+        'extra-narrow': '0.125rem', 
       },
     },
   },
